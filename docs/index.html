@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="app.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <button class='start'>Start/Restart</button>
+        <div class='score'>Score:<span>0</span></div>
+
+        <div class='grid'>
+            <script>
+            const grid = document.querySelector('.grid');
+
+            function createGrid(){
+                for(let i=0;i<1600;i++){
+                    var ele = document.createElement('div');
+
+                    grid.appendChild(ele);
+                }
+            }
+            createGrid();
+            </script>
+        </div>
+
+
+    </body>
+</html>

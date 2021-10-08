@@ -1,0 +1,49 @@
+body{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.grid{
+    width:600px;
+    height:600px;
+    display:flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: auto;
+}
+
+.grid div{
+    width:15px;
+    height:15px;
+}
+
+.snake{
+    background-color: greenyellow;
+    box-shadow: 0 0 0 1px;
+    
+}
+
+.head{
+    background-color: green;
+    box-shadow: 0 0 0 1px;
+
+}
+
+
+.apple{
+    background-color: red;
+    box-shadow: 0 0 0 1px;
+}
+
+.score{
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+}
+
+.start{
+    font-size: large;
+}
+
